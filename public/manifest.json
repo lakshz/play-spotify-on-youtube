@@ -1,0 +1,14 @@
+{
+  "name": "Spotify to Youtube",
+  "description": "This extension is made for demonstration purposes",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "Play your Spotify Playlist on Youtube",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab", "scripting", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
